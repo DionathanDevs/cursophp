@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 60, 60);
+}
+
+header{
+    max-width: 700px;
+    text-align: center;
+    
+}
+
+section{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.box_login{
+    margin: 150px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 1px solid rgb(228, 221, 221);
+   
+}
+
+.box_campos{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.box_login input{
+    padding: 2px 2px 2px 2px;
+    margin: 5px 5px 5px 5px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(194, 191, 191);
+}
+
+.numero{
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+.numero{
+    font-size: 17px;
+    
+}
+
+.numero input{
+    font-size: 15px;
+    padding: 5px 5px 5px;
+}
+
+label{
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
+}
+
+
+.btn_enviar input{
+    margin: 20px 5px 5px 5px;
+    background-color: rgb(79, 146, 102);
+    border: none;
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    height: 30px;
+    border-radius: 16px;
+    cursor: pointer;
+
+}
+
+.btn_enviar label{
+   background-color: white;
+}
+
+.btn_enviar input:hover{
+    width: 253px;
+    height: 33px;
+    background-color: rgb(32, 204, 32);
+
+}
+
+h1{
+    margin-top: 60px;
+    color: white;
+}
+
+.btn_enviar{
+    padding-bottom: 0px;
+}
+
+.boas_vindas{
+    display: block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: white;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px 2px;
+    
+}
+
+.box_php{
+    display: block;
+    text-align: left;
+}
+
+
+
+.boas_vindas p{
+    display: block;
+    text-align: center;
+    margin: 5px 5px 5px 9px;
+    font-size: 17px;
+
+}
+
+.box_php p{
+    justify-content: start;
+    text-align: left;
+}
+
+.voltar p a{
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(52, 52, 122);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(16, 7, 102);
+}
+
+.voltar{
+    margin-top: 25px;
+}
